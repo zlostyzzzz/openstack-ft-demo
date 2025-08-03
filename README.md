@@ -104,7 +104,8 @@ terraform destroy
 ## 📬 Author
 
 Ankur Kumar
-[https://github.com/ankurgautam90](https://github.com/ankurgautam90)
+[Github | ankurgautam90](https://github.com/ankurgautam90)
+[Linkedin | ankurgauti](https://www.linkedin.com/in/ankurgauti)
 
 ---
 
