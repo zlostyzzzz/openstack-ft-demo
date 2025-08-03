@@ -56,10 +56,10 @@ openstack-ft-web/
 ## ⚙️ Setup Instructions
 
 1. **Clone the repo**
-   ```bash
+```
    git clone https://github.com/ankurgautam90/openstack-ft-demo.git
    cd openstack-ft-demo/environments/dev
-````
+```
 
 2. **Replace SSH Key**
 
